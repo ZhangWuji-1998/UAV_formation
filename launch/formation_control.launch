@@ -1,0 +1,10 @@
+<launch> 
+
+    <node pkg="formation" type="formation_posi_pub" name="formation_posi_pub" output="screen">
+    </node>
+
+
+    <node pkg="formation" type="pose_control" name="pose_control" output="screen">
+    </node>
+
+</launch>
